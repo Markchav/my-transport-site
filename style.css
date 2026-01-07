@@ -1,0 +1,126 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),
+    url("29d3e6a07dba47caf06ff046c6f4dbf3eb47d9db.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 51px;
+  text-transform: capitalize;
+}
+
+.fst-italic {
+  font-weight: 700;
+  color: #ffcc00;
+}
+
+/* THE FIGMA BOX SPECS */
+.trailer-card {
+  height: 238px;
+  width: 100%;
+  /* max-width: 607px;  */
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  box-shadow: -3px 3px 0px 0px #c7c7c7;
+}
+
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.trailer-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.yellow-label {
+  color: #ffcc00;
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.specs {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+/* Button */
+.btn-warning {
+  background-color: #ffcc00 !important;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.card-1 {
+  background-image: url("03bb535afe904fdb22d114ff4bcd8c2e9b53edfe.jpg");
+}
+.card-2 {
+  background-image: url("145527052187bb7087d7f0e1dcabfe9502c54a11.jpg");
+}
+.card-3 {
+  background-image: url("b8562fadb2b4e8e4446c34f6156ada153fbc6139.jpg");
+  background-position: bottom;
+}
+.card-4 {
+  background-image: url("866f4faf39e5216d08a649c160afc5e256374a03.jpg");
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+  .trailer-section {
+    padding: 40px 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .trailer-card {
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 20px;
+    box-shadow: -2px 2px 0px 0px #c7c7c7;
+  }
+
+  .card-overlay {
+    padding: 20px 15px;
+  }
+
+  .trailer-card h3 {
+    font-size: 1.2rem;
+  }
+}
