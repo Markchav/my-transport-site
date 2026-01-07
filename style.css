@@ -24,30 +24,25 @@ h1 {
   color: #ffcc00;
 }
 
-/* THE FIGMA BOX SPECS */
 .trailer-card {
   height: 238px;
   width: 100%;
-  /* max-width: 607px;  */
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
   position: relative;
-
   box-shadow: -3px 3px 0px 0px #c7c7c7;
 }
 
 .card-overlay {
   background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
-
   padding-top: 32px;
   padding-right: 24px;
   padding-bottom: 32px;
   padding-left: 24px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -74,7 +69,6 @@ h1 {
   color: #f0f0f0;
 }
 
-/* Button */
 .btn-warning {
   background-color: #ffcc00 !important;
   font-family: "Nunito Sans", sans-serif;
